@@ -1,0 +1,131 @@
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="80px"
+        android:gravity="center"
+        android:background="#b2bec3"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Movie Name"
+            android:textColor="#0A1342"
+            android:textSize="50px"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter The Movie Name"
+            android:id="@+id/movieid"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Actor"
+            android:textColor="#0A1342"
+            android:textSize="50px"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the name of the actor"
+            android:id="@+id/actorid"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Actress"
+            android:textColor="#0A1342"
+            android:textSize="50px"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the name of the actress"
+            android:id="@+id/actressid"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Released Year"
+            android:textColor="#0A1342"
+            android:textSize="50px"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the year of the release"
+            android:inputType="number"
+            android:id="@+id/relid"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Language"
+            android:textColor="#0A1342"
+            android:textSize="50px"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the language"
+            android:id="@+id/langid"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gross Collection"
+            android:textColor="#0A1342"
+            android:textSize="50px"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Enter The Gross Collection"
+            android:id="@+id/Grossid"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Distributor Name"
+            android:textColor="#0A1342"
+            android:textSize="50px"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the name of the distributor"
+            android:id="@+id/distid"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Producer Name"
+            android:textColor="#0A1342"
+            android:textSize="50px"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the name of the producer"
+            android:id="@+id/prodid"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Production Company"
+            android:textColor="#0A1342"
+            android:textSize="50px"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the name of the production Company"
+            android:id="@+id/prodcoid"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT"
+            android:background="#0A1342"
+            android:textColor="#FFFFFF"
+            android:layout_margin="50px"
+            android:id="@+id/subbtn"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VIEW ALL"
+            android:background="#0A1342"
+            android:textColor="#FFFFFF"
+            android:layout_margin="50px"
+            android:id="@+id/Viewbtn"/>
+    </LinearLayout>
+</ScrollView>
